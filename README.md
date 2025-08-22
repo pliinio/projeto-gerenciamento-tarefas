@@ -1,8 +1,8 @@
-# 📊 Projeto de Banco de Dados - Gerenciamento de Tarefas
+# Projeto de Banco de Dados - Gerenciamento de Tarefas
 
 Este projeto foi desenvolvido como parte da disciplina de Banco de Dados no Instituto Federal da Paraíba. Seu objetivo é simular um sistema de gerenciamento de tarefas internas, permitindo cadastro de usuários, categorização de tarefas, definição de prioridades, comentários e acompanhamento de status.
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 - **docs/Projeto_BD.pdf**: Documento acadêmico com todos os detalhes do projeto.
 - **sql/create_tables.sql**: Script com a criação das tabelas do banco.
@@ -10,7 +10,7 @@ Este projeto foi desenvolvido como parte da disciplina de Banco de Dados no Inst
 - **sql/update_delete.sql**: Exemplos de atualizações e deleções.
 - **sql/queries.sql**: Conjunto de 15 queries para análise de dados.
 
-## 🧠 Conceitos Aplicados
+## Conceitos Aplicados
 
 - Modelo Entidade-Relacionamento
 - Modelo Relacional (Lógico)
@@ -19,7 +19,7 @@ Este projeto foi desenvolvido como parte da disciplina de Banco de Dados no Inst
 - Operações CRUD (Create, Read, Update, Delete)
 - Consultas SQL com `JOIN`, `GROUP BY`, `HAVING`, `SUBQUERIES`
 
-## 🧩 Entidades e Relacionamentos
+## Entidades e Relacionamentos
 
 - **Usuário** (Nome, Email)
 - **Categoria** (Nome_Categoria)
@@ -27,13 +27,13 @@ Este projeto foi desenvolvido como parte da disciplina de Banco de Dados no Inst
 - **Tarefa** (Título, Descrição, Datas, Status, FK para Usuário, Categoria e Prioridade)
 - **Comentário** (Conteúdo, Data, FK para Tarefa e Usuário)
 
-## 💻 Tecnologias
+## Tecnologias
 
 - SGBD: MariaDB 10.4
 - Script SQL compatível com MySQL/MariaDB
 - Dump realizado com MariaDB `mysqldump`
 
-### 🚀 Como executar
+### Como executar
 
 1. Instale o MariaDB em sua máquina
 2. Crie o banco de dados:
